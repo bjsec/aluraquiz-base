@@ -7,6 +7,8 @@ import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import Button from '../src/components/Button'
+import Input from '../src/components/Input'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -42,24 +44,22 @@ export default function Home() {
             <h1>Quiz sobre Segurança Cibernética</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
+          <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
               console.log('fazendo uma submissao por meio do react');                        
             }}
             >
-              <input 
-                onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value)
-                  //state
-                  //name = infosDoEvento.target.value 
-                  setName(infosDoEvento.target.value)
-                }}             
-                placeholder="Digite teu nome" 
-              />
-              <button type="submit" disabled={name.length === 0}>
-                Jogue  {name} !
-              </button>
+              <Input 
+                  name="nomeDoUsario"
+                  onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}      
+                  placeholder="Digite teu nome"  
+                  value={name}                           
+              />              
+              <Button type="submit"  disabled={name.length === 0} >
+                {`Jogue ${name}`}
+              </Button> <br></br>
+                                     
             </form>
 
           </Widget.Content>
@@ -69,7 +69,7 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>Esperando vocês</p>
           </Widget.Content>
         </Widget>
         <Footer />
