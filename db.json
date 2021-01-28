@@ -19,7 +19,7 @@
       "image": "https://www.pcrisk.com/images/stories/screenshots201703/wanna-decrypt0r-gif.gif",
       "title": "WannaCry foi um?",
       "description": "Mundialmente conhecido...",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
         "Malware",
         "Cavalo de Troia",
@@ -31,7 +31,7 @@
       "image": "https://media.giphy.com/media/GnTHlXYp08VDJllWj7/giphy.gif",
       "title": "XSS",
       "description": "A vulnerabilidade Cross-site-scripting (XSS) é encontrada em aplicações web que ativam ataques maliciosos ao injetarem ... dentro da página web vistas por outros usuários",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
         "server-side script",
         "client-side script",
@@ -43,7 +43,7 @@
       "image": "https://media.giphy.com/media/3ohzdZ0AhT0pVqel5C/giphy.gif",
       "title": "Script",
       "description": "O ___ é uma linguagem de script embutida no terminal dos SO da família Linux.",
-      "answer": 0,
+      "answer": 3,
       "alternatives": [
         "Javascript",
         "Ruby",
