@@ -17,7 +17,7 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Você acertou
+          <strong >Você acertou</strong>
           {' '}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
@@ -28,7 +28,7 @@ function ResultWidget({ results }) {
           }, 0)} */}
           {results.filter((x) => x).length}
           {' '}
-          perguntas
+          <strong>perguntas. Independente do resultado, continue estudando. </strong>
         </p>
         <ul>
           {results.map((result, index) => (
@@ -56,7 +56,10 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <img src="./hacked.gif"
+        alt="loading"
+        style= {{width:'100%', height:'190px', objectFit:'cover'}}  
+      /> 
       </Widget.Content>
     </Widget>
   );
@@ -88,7 +91,7 @@ function QuestionWidget({
         alt="Descrição"
         style={{
           width: '100%',
-          height: '150px',
+          height: '190px',
           objectFit: 'cover',
         }}
         src={question.image}
