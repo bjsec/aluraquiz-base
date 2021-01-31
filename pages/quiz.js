@@ -8,6 +8,7 @@ import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
 
+
 function ResultWidget({ results }) {
   return (
     <Widget>
@@ -56,7 +57,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <img src="./hacked.gif"
+         <img src="./hacked.gif"
         alt="loading"
         style= {{width:'100%', height:'190px', objectFit:'cover'}}  
       /> 
@@ -87,11 +88,13 @@ function QuestionWidget({
         </h3>
       </Widget.Header>
 
-      <img
-        alt="Descrição"
+      
+
+      <img 
+       alt="Descrição"
         style={{
           width: '100%',
-          height: '190px',
+         height: '190px',
           objectFit: 'cover',
         }}
         src={question.image}
