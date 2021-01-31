@@ -58,7 +58,12 @@ function LoadingWidget() {
       <Widget.Header>
         Carregando...
       </Widget.Header>
- 
+      
+         <img src="./hacked.gif"
+        alt="loading"
+        style= {{width:'100%', height:'190px', objectFit:'cover'}}  
+      /> 
+      
     </Widget>
   );
 }
