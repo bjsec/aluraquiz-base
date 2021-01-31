@@ -89,7 +89,7 @@ function QuestionWidget({
         alt="Descrição"
         style={{
           width: '100%',
-          height: '150px',
+          height: '190px',
           objectFit: 'cover',
         }}
         src={question.image}
