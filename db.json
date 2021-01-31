@@ -64,15 +64,15 @@
       ]
     },
     {
-      "image": "https://i.imgur.com/OURF1YB.gif",
-      "title": "Escalando privilégios",
-      "description": " Nessa vulnerabilidade em ambien",
+      "image": "https://www.whatstube.com.br/wp-content/uploads/2016/11/vai-longe-desse-jeito.gif",
+      "title": "Que ataque é esse?",
+      "description": " O atacante ganha acesso a uma conta e tenta elevar os privilégios da conta e, em seguida, tenta obter acesso a uma conta de privilégios mais elevados.",
       "answer":  2,
       "alternatives": [
-        "nuvem",
-        "rede",
-        "memória",
-        "hardware "
+        "XSS",
+        "DDoS",
+        "Phishing",
+        "Privilege escalation"
       ]
     }
   ],
