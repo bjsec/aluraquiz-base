@@ -30,7 +30,7 @@
     {
       "image": "https://media.giphy.com/media/GnTHlXYp08VDJllWj7/giphy.gif",
       "title": "XSS",
-      "description": "A vulnerabilidade Cross-site-scripting (XSS) é encontrada em aplicações web que ativam ataques maliciosos ao injetarem ... dentro da página web vistas por outros usuários",
+      "description": "A vulnerabilidade Cross-site-scripting (XSS) é encontrada em aplicações web que ativam ataques maliciosos ao injetarem ___ dentro da página web vistas por outros usuários",
       "answer": 1,
       "alternatives": [
         "server-side script",
@@ -50,11 +50,37 @@
         "Python",
         "Shell Script"
       ]
+    },
+    {
+      "image": "https://i.imgur.com/OURF1YB.gif",
+      "title": "Buffer Overflow",
+      "description": "Um Buffer Overflow ocorre quando o espaço reservado de ___ recebe como entrada mais dados do que é capaz de comportar, ou recebe uma solicitação de leitura além da sua capacidade.",
+      "answer":  2,
+      "alternatives": [
+        "nuvem",
+        "rede",
+        "memória",
+        "hardware "
+      ]
+    },
+    {
+      "image": "https://i.imgur.com/OURF1YB.gif",
+      "title": "Escalando privilégios",
+      "description": " Nessa vulnerabilidade em ambien",
+      "answer":  2,
+      "alternatives": [
+        "nuvem",
+        "rede",
+        "memória",
+        "hardware "
+      ]
     }
   ],
   "external": [
     "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+    "https://projeto-alura-quiz.andersonfroes.vercel.app/"
+    
   ],
   "theme": {
     "colors": {

@@ -32,7 +32,7 @@ function ResultWidget({ results }) {
           }, 0)} */}
           {results.filter((x) => x).length}
           {' '}
-          perguntas
+          perguntas. Independente do resultado, continue estudando. Nada supera a força de vontade!
         </p>
         <ul>
           {results.map((result, index) => (
